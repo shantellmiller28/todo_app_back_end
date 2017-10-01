@@ -23,6 +23,9 @@ class TodoController <ApplicationController
         elsif todo_id=='6'
             @todo_description="Eat lunch"
             @todo_pomodoro_estimate= 1
+        elsif todo_id=='7'
+            @todo_description="Bake a cake"
+            @todo_pomodoro_estimate= 5
         end  
     end
 end

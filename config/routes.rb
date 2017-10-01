@@ -3,4 +3,3 @@ Rails.application.routes.draw do
   get'todo/show/:id', to:'todo#show'
   
 end
-
